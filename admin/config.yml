@@ -1,0 +1,36 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Ce fichier configure le tableau de bord d'administration (Decap CMS).
+# Il permet à Andi d'ajouter, modifier ou supprimer ses produits
+# sans jamais toucher au code du site.
+#
+# Prérequis côté Tsk's Tech Services avant que ce tableau de bord fonctionne :
+# 1. Le site doit être déployé sur Netlify (via un dépôt Git : GitHub par exemple)
+# 2. Activer "Identity" dans les paramètres du site Netlify
+# 3. Activer "Git Gateway" dans Identity > Services
+# 4. Inviter Andi comme utilisatrice Identity (elle recevra un email pour créer son mot de passe)
+# 5. Une fois cela fait, le tableau de bord est accessible à l'adresse : votre-site.netlify.app/admin
+
+media_folder: "assets/produits" # dossier où les photos uploadées seront stockées
+public_folder: "/assets/produits"
+
+collections:
+  - name: "produits"
+    label: "Produits"
+    files:
+      - file: "data/products.json"
+        label: "Catalogue"
+        name: "catalogue"
+        description: "Ajoutez, modifiez ou supprimez vos produits ici."
+        fields:
+          - {label: "Produits", name: "products", widget: "list", fields: [
+              {label: "Identifiant (unique, sans espace)", name: "id", widget: "string"},
+              {label: "Nom du produit", name: "name", widget: "string"},
+              {label: "Catégorie", name: "category", widget: "select", options: ["sacs", "coussins", "cardigans"]},
+              {label: "Prix", name: "price", widget: "string"},
+              {label: "Description courte", name: "description", widget: "text"},
+              {label: "Délai de fabrication", name: "delay", widget: "string"},
+              {label: "Photo du produit", name: "image", widget: "image", required: false}
+            ]}
