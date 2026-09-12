@@ -1,0 +1,31 @@
+{
+  "products": [
+    {
+      "id": "sac-cloud-bay-01",
+      "name": "Sac Cloud Bay",
+      "category": "sacs",
+      "price": "EXEMPLE — à définir",
+      "description": "Exemple de fiche produit — à remplacer par une vraie création une fois les photos reçues.",
+      "delay": "Disponible sous 5 à 7 jours",
+      "image": ""
+    },
+    {
+      "id": "coussin-cloud-bay-01",
+      "name": "Coussin Cloud Bay",
+      "category": "coussins",
+      "price": "EXEMPLE — à définir",
+      "description": "Exemple de fiche produit — à remplacer par une vraie création une fois les photos reçues.",
+      "delay": "Disponible sous 5 jours",
+      "image": ""
+    },
+    {
+      "id": "cardigan-cloud-bay-01",
+      "name": "Cardigan Cloud Bay",
+      "category": "cardigans",
+      "price": "EXEMPLE — à définir",
+      "description": "Exemple de fiche produit — à remplacer par une vraie création une fois les photos reçues.",
+      "delay": "Disponible sous 7 à 10 jours",
+      "image": ""
+    }
+  ]
+}
