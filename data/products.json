@@ -1,31 +1,58 @@
 {
   "products": [
     {
-      "id": "sac-cloud-bay-01",
-      "name": "Sac Cloud Bay",
+      "id": "sac-boule-01",
+      "name": "Sac Boule",
       "category": "sacs",
-      "price": "EXEMPLE — à définir",
-      "description": "Exemple de fiche produit — à remplacer par une vraie création une fois les photos reçues.",
-      "delay": "Disponible sous 5 à 7 jours",
-      "image": ""
+      "price": "5000 FCFA",
+      "description": "Un sac compact au tressage arrondi et généreux, en rose poudré tout doux. Fait main, pour twister une tenue avec légèreté.",
+      "delay": "48h (commande à passer 48h à l'avance)",
+      "image": "assets/products/sac-boule.jpg"
     },
     {
-      "id": "coussin-cloud-bay-01",
-      "name": "Coussin Cloud Bay",
+      "id": "sac-elegance-01",
+      "name": "Sac Élégance",
+      "category": "sacs",
+      "price": "6000 FCFA",
+      "description": "Un sac anneau au tressage souple, en velours profond. Une pièce qui s'impose en douceur, fait main jusque dans les moindres détails.",
+      "delay": "48h (commande à passer 48h à l'avance)",
+      "image": "assets/products/sac-elegance.jpg"
+    },
+    {
+      "id": "sac-tresse-01",
+      "name": "Sac Tressé",
+      "category": "sacs",
+      "price": "6000 FCFA",
+      "description": "Un sac rose tressé, orné de perles délicates sur toute sa surface. Une création raffinée, entre douceur et caractère.",
+      "delay": "48h (commande à passer 48h à l'avance)",
+      "image": "assets/products/sac-tresse.jpg"
+    },
+    {
+      "id": "coussin-cocon-01",
+      "name": "Coussin Cocon",
       "category": "coussins",
-      "price": "EXEMPLE — à définir",
-      "description": "Exemple de fiche produit — à remplacer par une vraie création une fois les photos reçues.",
-      "delay": "Disponible sous 5 jours",
-      "image": ""
+      "price": "8000 FCFA",
+      "description": "Un duo de coussins tressés, écru et camel, pensé pour habiller un canapé avec chaleur et douceur. Fait main, pièce par pièce.",
+      "delay": "48h (commande à passer 48h à l'avance)",
+      "image": "assets/products/coussin-cocon.jpg"
     },
     {
-      "id": "cardigan-cloud-bay-01",
-      "name": "Cardigan Cloud Bay",
-      "category": "cardigans",
-      "price": "EXEMPLE — à définir",
-      "description": "Exemple de fiche produit — à remplacer par une vraie création une fois les photos reçues.",
-      "delay": "Disponible sous 7 à 10 jours",
-      "image": ""
+      "id": "sac-perle-nacree-01",
+      "name": "Sac Perle Nacrée",
+      "category": "sacs",
+      "price": "6000 FCFA",
+      "description": "Ce joli sac blanc entièrement réalisé en laine séduit par son tressage original et son élégant anse en perles. Une création raffinée qui s'accorde facilement avec différentes tenues et occasions.",
+      "delay": "48h (commande à passer 48h à l'avance)",
+      "image": "assets/products/sac-perle-nacree.jpg"
+    },
+    {
+      "id": "pochette-marine-royale-01",
+      "name": "Pochette Marine Royale",
+      "category": "sacs",
+      "price": "7000 FCFA",
+      "description": "Cette pochette réalisée à la main en laine se distingue par son tressage épais et son association de bleu marine et bleu royal. Un accessoire unique, élégant et soigneusement confectionné pour apporter une touche artisanale à votre style.",
+      "delay": "48h (commande à passer 48h à l'avance)",
+      "image": "assets/products/pochette-marine-royale.jpg"
     }
   ]
 }
